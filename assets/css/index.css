@@ -204,3 +204,74 @@ form [type="submit"] {
     }
 
 }
+
+/* Responsive area */
+
+@media screen and (max-width:425px) {
+
+    
+    ul, ul > a {
+        font-size: 25px;
+        gap: 2px;
+        margin-left: 10px;
+    }
+     
+    #rightlogo {
+        font-size: 25px;
+        margin-right: 20px;
+    }
+    
+    .cards{
+        flex-direction: column;
+    }
+    
+    .cardone, .cardtwo{
+        align-items:flex-start;
+        padding: 30px;
+        margin: 30px;
+        width: 300px;
+        height: 200px;
+    }
+    
+    
+    .cardrock, .cardscissors, .cardpaper{
+        font-size: 30px;
+        }
+    
+    .cardtwo{
+        background: none;
+    }
+
+    #iaplayer, #score{
+        font-size: 40px;
+    }
+
+    /* Game action section */
+
+    .actionplay{
+        gap: 5px;
+    }
+    
+    .actbutton{
+        font-size: 25px;
+    }
+
+    /* Form responsiveness */
+
+    .bugarea {
+        width: 100%;
+        padding: 0px;
+        margin: 125px 0px;
+    }
+    
+    
+    .upper {
+        font-size: 50px;
+    }
+    
+    .bugarea p {
+        font-size: 18px;
+    }
+
+
+}
