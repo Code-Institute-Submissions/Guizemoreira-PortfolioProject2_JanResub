@@ -105,3 +105,71 @@ ul, ul > a {
     color: white;
     font-family: 'Nabla', cursive ;
 }
+
+/*Report a bug session
+  Form design
+*/
+
+.bugarea {
+    width: 64%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 0px 50px;
+    margin: 150px auto;
+    background-color: rgba(2,0,36, 0.3);
+}
+
+
+.upper {
+    font-size: 56px;
+    color: #fff;
+    line-height: 24px;
+    text-align: justify;
+    align-self: center;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.bugarea p {
+    margin-top: 16px;
+    line-height: 20px;
+    max-width: 450px;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+
+input {
+    margin-top: 14px;
+    height: 16px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 3px solid #47B5FF;
+    font-size: 15px;
+}
+
+textarea{
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #47B5FF;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+}
