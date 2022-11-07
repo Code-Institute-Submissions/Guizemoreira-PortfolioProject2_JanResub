@@ -6,3 +6,11 @@ function play(){
         alert("Select an option!");
     }
 }
+
+
+//Cleaning options
+function reset(){
+    document.getElementById("iaplayer").innerHTML="IA Player";
+    document.getElementById("iawin").innerHTML="";
+    document.getElementById("score").innerHTML="";
+}
