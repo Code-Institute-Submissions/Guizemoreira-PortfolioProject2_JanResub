@@ -175,3 +175,32 @@ form [type="submit"] {
     font-weight: bold;
     align-self: center;
 }
+
+/* Responsive area */
+
+@media screen and (max-width:768px) {
+    
+    ul, ul > a {
+        margin-left: 20px;
+        list-style-type: none;
+    }
+    
+    .cardone, .cardtwo{
+        align-items:flex-start;
+        padding: 30px;
+        margin: 30px;
+        width: 300px;
+        height: 350px;
+    }
+    
+    
+    .cardrock, .cardscissors, .cardpaper{
+        font-size: 45px;
+        justify-content:left;
+    }
+    
+    .cardtwo{
+        text-align: center;
+    }
+
+}
