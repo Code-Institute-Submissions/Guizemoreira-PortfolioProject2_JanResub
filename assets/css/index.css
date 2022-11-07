@@ -30,3 +30,48 @@ ul, ul > a {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+#rightlogo {
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+/* Game section */
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cardone, .cardtwo{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 50px;
+    margin: 50px;
+    border: 1px white solid;
+    border-radius: 35px;
+    width: 500px;
+    height: 550px;
+}
+
+.cardone{
+    justify-content: space-around;
+}
+
+.cardrock, .cardscissors, .cardpaper{
+    font-size: 55px;
+    color: white;
+    font-family: 'Tourney', cursive ;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardtwo{
+    justify-content:baseline;
+    background: url(./img/bowsercart) bottom no-repeat;
+    background-size: 50%;
+}
