@@ -46,7 +46,7 @@ The game was developed to bring users some fun time while navigating on internet
   - This page will allow the user to get with the developers to report any bug that they might find during the game.
   - This form will befilled by the user and deliver an e-mail to the dev team 
 
-![Report a bug](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Report a bug](https://github.com/Guizemoreira/PortfolioProject2/blob/main/assets/img/sitecontent/report_a_bug.png)
 
 
 ### Features Left to Implement
