@@ -73,7 +73,7 @@ ul, ul > a {
 }
 
 .cardtwo{
-    justify-content:baseline;
+    justify-content:top;
     background: url(/assets/img/bowsercart) bottom no-repeat;
     background-size: 50%;
 }
